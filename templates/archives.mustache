@@ -1,9 +1,9 @@
 {{> header}}
 {{#site.posts}}
-<h3><a href="/{{url}}">{{title}}</a></h3>
+<h3><a href="/{{{url}}}">{{title}}</a></h3>
 {{date}}
 {{#categoryDisplay}}
-	&middot; <a href="/categories/{{url}}">{{category}}</a>
+	&middot; <a href="/categories/{{{url}}}">{{category}}</a>
 {{/categoryDisplay}}
 {{/site.posts}}
 {{> footer}}
