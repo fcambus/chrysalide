@@ -15,7 +15,7 @@
 
 	<generator uri="http://www.cambus.net/motyl/">Motyl</generator>
 
-	{{#site.posts}}
+	{{#site.feed}}
 	<entry>
 	<title><![CDATA[{{title}}]]></title>
 		<link href="{{{site.url}}}{{{url}}}"/>
@@ -31,5 +31,5 @@
 		<category term="{{category}}" scheme="{{{site.url}}}/categories/{{{url}}}"/>  
 		{{/categoryDisplay}}
 	</entry>
-	{{/site.posts}}
+	{{/site.feed}}
 </feed>
