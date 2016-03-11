@@ -4,7 +4,7 @@ Chrysalide is a clean, minimalistic, responsive, and Lynx friendly theme. It is 
 
 ## License
 
-Chrysalide is released under the BSD 3-Clause license. See `LICENSE` file for details.
+Chrysalide is released under the BSD 2-Clause license. See `LICENSE` file for details.
 
 The theme bundles third party fonts and scripts released under the following licenses :
 
