@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">  
-	<title><![CDATA[{{page.title}} - {{site.name}}]]></title>
-	<subtitle><![CDATA[{{site.description}}]]></subtitle>
+<feed xmlns="http://www.w3.org/2005/Atom">
 	<title><![CDATA[{{{page.title}}} - {{{site.name}}}]]></title>
+	<subtitle><![CDATA[{{{site.description}}}]]></subtitle>
 
 	<link href="/atom.xml" rel="self"/>
 	<link href="{{{site.url}}}"/>
@@ -11,14 +10,14 @@
 	<id>{{{site.url}}}</id>
 
 	<author>
-		<name><![CDATA[{{site.author}}]]></name>    
+		<name><![CDATA[{{site.author}}]]></name>
 	</author>
 
 	<generator uri="http://www.cambus.net/motyl/">Motyl</generator>
 
 	{{#site.feed}}
 	<entry>
-	<title><![CDATA[{{title}}]]></title>
+	<title><![CDATA[{{{title}}}]]></title>
 		<link href="{{{site.url}}}{{{url}}}"/>
 		<id>{{{url}}}</id>
 		<published>{{datetime}}</published>
@@ -29,7 +28,7 @@
 		</summary>
 
 		{{#categoryDisplay}}
-		<category term="{{category}}" scheme="{{{site.url}}}/categories/{{{url}}}"/>  
+		<category term="{{category}}" scheme="{{{site.url}}}/categories/{{{url}}}"/>
 		{{/categoryDisplay}}
 	</entry>
 	{{/site.feed}}
