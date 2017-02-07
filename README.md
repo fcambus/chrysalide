@@ -1,6 +1,6 @@
 ## Description
 
-Chrysalide is a clean, minimalistic, responsive, and Lynx friendly theme. It is the default theme for [Motyl](http://www.cambus.net/motyl/), an opinionated static site generator written in Lua.
+Chrysalide is a clean, minimalistic, responsive, and Lynx friendly theme. It is the default theme for [Motyl](https://www.cambus.net/motyl/), an opinionated static site generator written in Lua.
 
 ## Syntax highlighting
 
@@ -19,11 +19,11 @@ The theme bundles third party fonts and scripts released under the following lic
 
 Chrysalide is developed by Frederic Cambus.
 
-- Site : http://www.cambus.net
-- Twitter: http://twitter.com/fcambus
+- Site: https://www.cambus.net
+- Twitter: https://twitter.com/fcambus
 
 ## Resources
 
-Project Homepage : http://www.cambus.net/motyl/
+Project Homepage: https://www.cambus.net/motyl/
 
 GitHub : https://github.com/fcambus/motyl-theme-chrysalide
