@@ -24,7 +24,7 @@
 }
 
 body {
-	background: #fff; 
+	background: #fff;
 	color: #000;
 	font-family: 'open_sansregular';
 	font-size: 18px;
@@ -40,7 +40,7 @@ header h2 {
     margin: 0;
 }
 
-header, #container { max-width: 900px; margin : auto; padding: 0 10px; }
+header, #container { max-width: 900px; margin: auto; padding: 0 10px; }
 
 time {
 	color: #aaa;
