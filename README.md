@@ -26,4 +26,4 @@ Chrysalide is developed by Frederic Cambus.
 
 Project Homepage: https://www.cambus.net/motyl/
 
-GitHub : https://github.com/fcambus/motyl-theme-chrysalide
+GitHub: https://github.com/fcambus/chrysalide
