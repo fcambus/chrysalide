@@ -20,7 +20,6 @@ The theme bundles third party fonts and scripts released under the following lic
 Chrysalide is developed by Frederic Cambus.
 
 - Site: https://www.cambus.net
-- Twitter: https://twitter.com/fcambus
 
 ## Resources
 
