@@ -12,7 +12,7 @@ Chrysalide is released under the BSD 2-Clause license. See `LICENSE` file for de
 
 The theme bundles third party fonts and scripts released under the following licenses:
 
-- Open Sans fonts are licensed under the Apache license Version 2.0
+- Work Sans fonts are licensed under the SIL Open Font License v1.1
 - Prism is licensed under the MIT license
 
 ## Author
