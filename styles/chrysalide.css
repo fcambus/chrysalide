@@ -23,9 +23,10 @@
 
 body {
 	background: #fff;
-	color: #000;
-	font-size: 18px;
+	color: #333;
 	font-family: 'Work Sans';
+	font-size: 20px;
+	line-height: 1.6;
 	margin: 0;
 	padding: 0;
 }
@@ -35,10 +36,12 @@ h1, h3 {
 }
 
 header h2 {
-    margin: 0;
+	font-size: 48px;
+	line-height: 48px;
+	margin: 16px 0 0;
 }
 
-header, #container { max-width: 900px; margin: auto; padding: 0 10px; }
+header, #container { max-width: 1024px; margin : auto; padding: 0 10px; }
 
 time {
 	color: #aaa;
@@ -49,9 +52,7 @@ p {
 	text-align: justify;
 }
 
-hr {
-    border-top: 1px;
-}
+hr { border-top: 1px solid #eee; margin: 16px 0 }
 
 footer {
 	color: #aaa;
@@ -60,9 +61,10 @@ footer {
 
 #powered { float:right; }
 
-a { color: #555; text-decoration: none; }
+header > a, h3 > a { color: #555 }
 
-p a { border-bottom: 1px dotted }
+a { color: #af463e; text-decoration: none; }
+p a { border-bottom: 2px solid pink }
 
 img {
     max-width: 100%;
