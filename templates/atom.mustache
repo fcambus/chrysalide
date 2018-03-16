@@ -6,7 +6,7 @@
 	<link href="{{{site.url}}}atom.xml" rel="self"/>
 	<link href="{{{site.url}}}"/>
 
-	<updated>{{{updated}}}</updated>
+	<updated>{{{site.updated}}}</updated>
 	<id>{{{site.url}}}</id>
 
 	<author>
@@ -15,7 +15,7 @@
 
 	<generator uri="https://github.com/fcambus/motyl">Motyl</generator>
 
-	{{#site.feed}}
+	{{#feed}}
 	<entry>
 	<title><![CDATA[{{{title}}}]]></title>
 		<link href="{{{site.url}}}{{{url}}}"/>
@@ -31,5 +31,5 @@
 		<category term="{{category}}" scheme="{{{site.url}}}/categories/{{{url}}}"/>
 		{{/categoryDisplay}}
 	</entry>
-	{{/site.feed}}
+	{{/feed}}
 </feed>
