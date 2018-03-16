@@ -29,6 +29,7 @@ body {
 	line-height: 1.6;
 	margin: 0;
 	padding: 0;
+	border-top: 8px solid #af463e;
 }
 
 a {
@@ -73,16 +74,25 @@ p {
 img {
 	display: inline-block;
 	height: auto;
-	max-width: 100%;
 	margin: auto;
+	max-width: 100%;
 }
 
 p a {
 	border-bottom: 2px solid pink;
 }
 
+pre {
+	font-size: 18px;
+	overflow: auto;
+}
+
 time {
 	color: #aaa;
+}
+
+.highlight {
+	border-radius: 5px;
 }
 
 .youtube {
