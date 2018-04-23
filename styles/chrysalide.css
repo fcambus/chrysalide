@@ -49,7 +49,7 @@ footer {
 }
 
 h1, h3 {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 header, #container {
@@ -109,8 +109,8 @@ time {
 
 .youtube iframe {
 	position: absolute;
-	width: 100%!important;
-	height: 100%!important;
+	width: 100% !important;
+	height: 100% !important;
 }
 
 #powered {
