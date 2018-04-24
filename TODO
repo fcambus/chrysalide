@@ -1,5 +1,3 @@
 - Check W3C validator compliance (also for YouTube video embeds)
-- Fix display issues on mobile
 - Add fallback fonts?
 - Add captions for images?
-- Add something like FancyBox for images?
