@@ -13,106 +13,106 @@
 /*****************************************************************************/
 
 @font-face {
-	font-family: 'Work Sans';
-	src: url('/fonts/WorkSans-Regular.woff') format('woff'),
-	     url('/fonts/WorkSans-Regular.woff2') format('woff2'),
-	     url('/fonts/WorkSans-Regular.ttf') format('truetype');
-	font-weight: 400;
-	font-style: normal;
+  font-family: 'Work Sans';
+  src: url('/fonts/WorkSans-Regular.woff') format('woff'),
+       url('/fonts/WorkSans-Regular.woff2') format('woff2'),
+       url('/fonts/WorkSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
-	background: #fff;
-	color: #333;
-	font-family: 'Work Sans';
-	font-size: 20px;
-	line-height: 1.6;
-	margin: 0;
-	padding: 0;
-	border-top: 8px solid #af463e;
+  background: #fff;
+  color: #333;
+  font-family: 'Work Sans';
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  border-top: 8px solid #af463e;
 }
 
 a {
-	color: #af463e;
-	text-decoration: none;
+  color: #af463e;
+  text-decoration: none;
 }
 
 blockquote {
-	border-left: 4px solid #eee;
-	font-style: italic;
-	padding-left: 16px;
+  border-left: 4px solid #eee;
+  font-style: italic;
+  padding-left: 16px;
 }
 
 footer {
-	color: #aaa;
-	margin: 16px 0;
+  color: #aaa;
+  margin: 16px 0;
 }
 
 h1, h3 {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 header, #container {
-	max-width: 1024px;
-	margin: auto;
-	padding: 0 10px;
+  max-width: 1024px;
+  margin: auto;
+  padding: 0 10px;
 }
 
 header h2 {
-	font-size: 48px;
-	line-height: 48px;
-	margin: 16px 0 0;
+  font-size: 48px;
+  line-height: 48px;
+  margin: 16px 0 0;
 }
 
 header > a, h3 > a {
-	color: #555;
+  color: #555;
 }
 
 hr {
-	border-top: 1px solid #eee;
-	margin: 16px 0;
+  border-top: 1px solid #eee;
+  margin: 16px 0;
 }
 
 p {
-	text-align: justify;
+  text-align: justify;
 }
 
 img {
-	display: inline-block;
-	height: auto;
-	margin: auto;
-	max-width: 100%;
+  display: inline-block;
+  height: auto;
+  margin: auto;
+  max-width: 100%;
 }
 
 p a {
-	border-bottom: 2px solid pink;
+  border-bottom: 2px solid pink;
 }
 
 pre {
-	font-size: 18px;
-	overflow: auto;
-	padding: 8px 10px !important;
+  font-size: 18px;
+  overflow: auto;
+  padding: 8px 10px !important;
 }
 
 time {
-	color: #aaa;
+  color: #aaa;
 }
 
 .highlight {
-	border-radius: 5px;
+  border-radius: 5px;
 }
 
 .youtube {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
 }
 
 .youtube iframe {
-	position: absolute;
-	width: 100% !important;
-	height: 100% !important;
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 #powered {
-	float: right;
+  float: right;
 }
