@@ -1,6 +1,6 @@
 ## Description
 
-Chrysalide is a clean, minimalistic, responsive, and text-based browsers
+Chrysalide is a clean, minimalist, responsive, and text-based browsers
 friendly theme. It is the default theme for [Motyl][1], an opinionated
 blog-aware static site generator written in Ruby.
 
